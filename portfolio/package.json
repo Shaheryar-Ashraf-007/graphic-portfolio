@@ -13,7 +13,7 @@
     "amqplib": "^0.10.5",
     "animejs": "^3.2.2",
     "css": "^3.0.0",
-    "framer-motion": "^11.12.0",
+    "framer-motion": "^11.18.0",
     "lucide": "^0.462.0",
     "lucide-react": "^0.462.0",
     "next": "^15.0.3",
@@ -23,9 +23,9 @@
     "react-intersection-observer": "^9.14.0",
     "tailwind": "^4.0.0"
   },
-    "engines": {
+  "engines": {
     "node": ">=0.8"
-},
+  },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
     "eslint": "^8.57.1",

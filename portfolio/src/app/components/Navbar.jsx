@@ -1,10 +1,6 @@
-"use client";
 import React, {useState } from 'react';
 import { LuList } from "react-icons/lu";
 import Modal from "../../app/components/Modal.jsx";
-import { SiLeetcode } from "react-icons/si";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
 import { useRouter } from 'next/navigation.js';
 
 const Navbar = () => {
@@ -56,19 +52,6 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className="flex items-center gap-6 justify-center md:justify-center md:w-1/3 py-4">
-        <a href="https://github.com/Shaheryar-Ashraf-007" target="_blank" rel="noopener noreferrer">
-          <FaGithub size={28} className='text-white cursor-pointer border-none lg:hover:text-pink-500 
-          md:hover:text-pink-500 hover:cursor-pointer transform hover:scale-95 border rounded-md' />
-        </a>
-        <a href="https://www.linkedin.com/in/muhammad-shaheryar-bb0542314/" target="_blank" rel="noopener noreferrer">
-          <FaLinkedinIn size={28} className='text-white cursor-pointer border-none lg:hover:text-pink-500 
-          md:hover:text-pink-500 hover:cursor-pointer transform hover:scale-95 border rounded-md' />
-        </a>
-        <a href="https://leetcode.com/u/Muhammad-Shaheryar/" target="_blank" rel="noopener noreferrer">
-          <SiLeetcode size={28} className='text-white cursor-pointer border-none lg:hover:text-pink-500 md:hover:text-pink-500 hover:cursor-pointer transform hover:scale-95 border rounded-md' />
-        </a>
-      </div>
 
       <Modal
         isOpen={isOpenModal}

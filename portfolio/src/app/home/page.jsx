@@ -152,7 +152,7 @@ const HomePage = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            Software Engineer
+            Graphic Designer
           </motion.h4>
           
           <motion.p
@@ -161,7 +161,7 @@ const HomePage = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.6 }}
           >
-            I&apos; m a passionate software engineer driven by curiosity and a relentless desire to solve problems through technology. With a deep love for crafting elegant solutions, I specialize in building scalable applications that blend performance, functionality, and seamless user experiences.
+            As a passionate graphic designer, I specialize in creating visually captivating designs that communicate ideas and evoke emotions. With expertise in branding, illustration, and UI/UX design, I focus on crafting solutions that seamlessly blend creativity and functionality. Driven by a love for art and innovation, I bring ideas to life through designs that leave a lasting impact.
           </motion.p>
 
           <motion.div 

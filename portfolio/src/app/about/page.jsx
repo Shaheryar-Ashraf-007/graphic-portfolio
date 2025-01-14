@@ -44,8 +44,7 @@ const Page = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             >
               <p className="transition-opacity duration-500 hover:opacity-80">
-                I am a passionate Software Engineer with 2 years of experience
-                in the tech industry. As a graduate of BS Computer Science from
+              I am a passionate Graphic Designer with a strong foundation in computer science, holding a BS degree from
                 <span className="font-bold bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 bg-clip-text text-transparent"> Government College University Faisalabad (GCUF)
                 </span>
                 , I have honed my technical expertise through both academic and
@@ -54,18 +53,10 @@ const Page = () => {
               <p className="transition-opacity duration-500 hover:opacity-80">
                 Currently, I work at
                 <span className="font-bold bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 bg-clip-text text-transparent"> Bookme.pk</span>
-                , Pakistan&apos;s first ticketing platform, where I contribute
-                to developing innovative solutions that streamline online
-                ticketing services. My experience includes building real-world
-                projects, collaborating with teams, and addressing complex
-                technical challenges.
+                , Pakistan&apos;s first ticketing platform, I have contributed to enhancing user experiences by designing intuitive interfaces and innovative visual solutions. My expertise spans branding, UI/UX design, and digital art, enabling me to craft designs that resonate with audiences and align with strategic objectives.
               </p>
               <p className="transition-opacity duration-500 hover:opacity-80">
-                Beyond my professional role, I am deeply invested in enhancing
-                my problem-solving skills, continually striving to write
-                efficient, scalable, and impactful code. With a strong
-                foundation in software development and a commitment to lifelong
-                learning, I aim to create technology that makes a difference.
+              Driven by a commitment to excellence and lifelong learning, I continually refine my skills to stay at the forefront of design trends and technologies. My goal is to create visuals that not only captivate but also make a meaningful impact.
               </p>
             </motion.div>
           </div>
@@ -73,9 +64,7 @@ const Page = () => {
           {/* Quote Section */}
           <div className="mt-8 sm:mt-4 lg:mt-12 space-y-6">
             <blockquote className="bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 bg-clip-text text-transparent text-sm sm:text-base lg:text-lg font-bold pr-0 lg:pr-8 transition-transform duration-500 hover:scale-105">
-              &quot;As a software engineer, I believe in the power of technology to
-              transform ideas into reality. Every challenge is an opportunity to
-              learn, grow, and create solutions that make a difference.&quot;
+            Graphic design is more than just art; it&apos;s the visual language that connects ideas with emotions, transforming creativity into communication.
             </blockquote>
             <div className="flex justify-end pr-0 lg:pr-8">
               <Image
