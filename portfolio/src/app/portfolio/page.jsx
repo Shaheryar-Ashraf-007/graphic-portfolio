@@ -33,15 +33,10 @@ import img_32 from '../../../public/img_32.png';
 import img_33 from '../../../public/img_33.jpg';
 import img_34 from '../../../public/img_34.png';
 import img_35 from '../../../public/img_35.png';
-
 import Image from 'next/image';
-import { useInView } from "react-intersection-observer";
 
 const Images = () => {
-  const [ref, inView] = useInView({
-    triggerOnce: true, 
-    threshold: 0.2, 
-  });
+  
 
   const images = [
     { src: img_20, alt: "img_20" },
