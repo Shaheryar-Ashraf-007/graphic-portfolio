@@ -34,14 +34,7 @@ import img_33 from '../../../public/img_33.jpg';
 import img_34 from '../../../public/img_34.png';
 import img_35 from '../../../public/img_35.png';
 
-
-
-
-
-
-
 import Image from 'next/image';
-import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const Images = () => {
@@ -89,21 +82,13 @@ const Images = () => {
 
   return (
     <div>
-      <motion.h1 
+      <h1 
         className="text-lg sm:text-sm md:text-xl lg:text-2xl font-bold"
-        ref={ref}
-        initial={{ opacity: 0, x: -40 }}
-        animate={inView ? { opacity: 1, x: 0 } : {}}
-        transition={{ duration: 0.5, delay: 0.2 }}
       >
         Skills
-      </motion.h1>
-      <motion.div 
+      </h1>
+      <div 
         className="flex flex-wrap gap-8 items-center justify-center"
-        ref={ref}
-        initial={{ opacity: 0, y: 80 }}
-        animate={inView ? { opacity: 1, y: 0 } : {}}
-        transition={{ duration: 0.5, delay: 0.2 }}
       >
         {images.map((image) => (
           <div
@@ -120,7 +105,7 @@ const Images = () => {
             </span>
           </div>
         ))}
-      </motion.div>
+      </div>
     </div>
   );
 }
