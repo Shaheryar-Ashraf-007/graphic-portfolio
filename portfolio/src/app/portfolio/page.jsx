@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from 'next/image';
 import img_20 from '../../../public/img_20.jpeg';
 import img_19 from '../../../public/img_19.jpeg';
 import img_18 from '../../../public/img_18.jpeg';
@@ -10,6 +11,12 @@ import img_13 from '../../../public/img_13.jpeg';
 import img_12 from '../../../public/img_12.jpeg';
 import img_11 from '../../../public/img_11.jpeg';
 import img_10 from '../../../public/img_10.jpeg';
+import img_37 from '../../../public/img_37.jpeg';
+import img_38 from '../../../public/img_38.jpeg';
+import img_39 from '../../../public/img_39.jpeg';
+import img_40 from '../../../public/img_40.jpeg';
+import img_41 from '../../../public/img_41.jpeg';
+import img_42 from '../../../public/img_42.jpeg';
 import img_9 from '../../../public/img_9.jpeg';
 import img_8 from '../../../public/img_8.jpeg';
 import img_7 from '../../../public/img_7.jpeg';
@@ -33,11 +40,8 @@ import img_32 from '../../../public/img_32.png';
 import img_33 from '../../../public/img_33.jpg';
 import img_34 from '../../../public/img_34.png';
 import img_35 from '../../../public/img_35.png';
-import Image from 'next/image';
 
 const Images = () => {
-  
-
   const images = [
     { src: img_20, alt: "img_20" },
     { src: img_19, alt: "img_19" },
@@ -50,6 +54,12 @@ const Images = () => {
     { src: img_12, alt: "img_12" },
     { src: img_11, alt: "img_11" },
     { src: img_10, alt: "img_10" },
+    { src: img_37, alt: "img_37" },
+    { src: img_38, alt: "img_38" },
+    { src: img_39, alt: "img_39" },
+    { src: img_40, alt: "img_40" },
+    { src: img_41, alt: "img_41" },
+    { src: img_42, alt: "img_42" },
     { src: img_9, alt: "img_9" },
     { src: img_8, alt: "img_8" },
     { src: img_7, alt: "img_7" },
@@ -77,14 +87,10 @@ const Images = () => {
 
   return (
     <div>
-      <h1 
-        className="text-lg sm:text-sm md:text-xl lg:text-2xl font-bold"
-      >
+      <h1 className="text-lg sm:text-sm md:text-xl lg:text-2xl font-bold">
         Skills
       </h1>
-      <div 
-        className="flex flex-wrap gap-8 items-center justify-center"
-      >
+      <div className="flex flex-wrap gap-8 items-center justify-center">
         {images.map((image) => (
           <div
             key={image.alt}
@@ -93,11 +99,9 @@ const Images = () => {
             <Image
               src={image.src}
               alt={image.alt}
-              className=" w-36 h-36 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-72 lg:h-72 transition-transform duration-500 transform hover:scale-105"
+              className="w-36 h-36 sm:w-36 sm:h-36 md:w-48 md:h-48 lg:w-72 lg:h-72 transition-transform duration-500 transform hover:scale-105"
               priority
             />
-            <span className="absolute top-20 lg:top-32 md:top-24 sm:top-20 text-xs text-center text-white font-semibold">
-            </span>
           </div>
         ))}
       </div>
